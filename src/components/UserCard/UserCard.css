@@ -1,0 +1,134 @@
+body {
+
+    background: #3F5EFB;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    font-family: "SUSE", sans-serif;
+    font-size: 13px;
+
+}
+
+.user-card {
+
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0 , 0 , 0 , 0.2);
+    background: #fff;
+    transition: 0.3s;
+
+
+}
+
+.user-card:hover {
+
+    box-shadow: 0 8px 16px 0 rgba(0 , 0 , 0 , 0.5);
+
+}
+
+.user-img {
+
+    width: 251px;
+    height: 264px;
+    object-fit: cover;
+
+
+}
+
+.card-contents {
+
+    display: grid;
+    place-items: center;
+    padding: 12px;
+
+}
+
+.show-hide-btn {
+
+    margin-bottom: -35px;
+    background: linear-gradient(135deg, #57c785, #2a7b9b);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0 , 0 , 0 , 0.15);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: -3px;
+
+}
+
+.show-hide-btn:hover {
+
+    background: linear-gradient(135deg, #eddc53, #57c785);
+    transform: scale(1.05);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+
+}
+
+.likes-btn {
+
+    background: linear-gradient(135deg, #57c785, #2a7b9b);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0 , 0 , 0 , 0.15);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    margin-top: 58px;
+    cursor: pointer;
+
+}
+
+.likes-btn:hover {
+
+    background: linear-gradient(135deg, #eddc53, #57c785);
+    transform: scale(1.05);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);    
+
+}
+
+.Insta-board {
+
+    text-align: center;
+
+}
+
+.name {
+
+    margin-top: 0px;
+
+}
+
+.load-more-btn {
+
+    background: linear-gradient(135deg, #57c785, #2a7b9b);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0 , 0 , 0 , 0.15);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    margin-top: 58px;
+    cursor: pointer;
+
+}
+
+.load-more-btn:hover {
+
+    
+    background: linear-gradient(135deg, #eddc53, #57c785);
+    transform: scale(1.05);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);   
+
+
+}
