@@ -1,0 +1,55 @@
+.user-list {
+
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    gap: 20px;
+    font-size: 10px;
+
+}
+
+.user-list-container {
+
+    display: grid;
+    place-items: center;
+    padding: 12px;
+    gap: 15px;
+
+
+}
+
+#userCount {
+
+    padding: 10px 16px;
+    width: 67px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+.Load-btn {
+
+    background: linear-gradient(135deg, #2a7b9b, #57c785);
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.Load-btn:hover {
+
+    background: linear-gradient(135deg, #57c785, #eddc53);
+    transform: translateY(-2px);
+
+}
